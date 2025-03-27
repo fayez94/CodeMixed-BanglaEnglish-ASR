@@ -45,6 +45,7 @@ train_text = pd.read_csv(train_text_url)
 print(train_text.head())
 
 ### 🔹 **Loading Audio Files in Python**
+```python
 import torchaudio
 
 # Load an example audio file
