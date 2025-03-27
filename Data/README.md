@@ -44,8 +44,7 @@ train_text_url = "https://docs.google.com/spreadsheets/d/1EkNql3Vf_AJsjlJe8iX2ZZ
 train_text = pd.read_csv(train_text_url)
 print(train_text.head())
 
-### 🔹 **Loading Audio Files in Python**
-```python
+Loading Audio Files in Python
 import torchaudio
 
 # Load an example audio file
