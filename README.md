@@ -28,7 +28,7 @@ This ASR model is trained on a custom code-mixed Bangla-English speech dataset. 
 ✅ Available in train/ and test/ splits  
 
 
-🔍 For more details on dataset format, structure, and preprocessing steps, check the **data.md** file.
+🔍 For more details on dataset format, structure, and preprocessing steps, check the **Data** folder.
 
 ## 🛠️ How to Use This Repository
 **Clone this repository:**
