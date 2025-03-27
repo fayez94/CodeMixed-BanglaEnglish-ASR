@@ -43,10 +43,9 @@ import pandas as pd
 train_text_url = "https://docs.google.com/spreadsheets/d/1EkNql3Vf_AJsjlJe8iX2ZZiUZSx-qWYh/export?format=csv"
 train_text = pd.read_csv(train_text_url)
 print(train_text.head())
+```
 
-```md
 ### 🔹 **Loading Audio Files in Python**
-
 ```python
 import torchaudio
 
@@ -56,3 +55,4 @@ waveform, sample_rate = torchaudio.load(audio_path)
 
 print(f"Sample Rate: {sample_rate}")
 print(f"Waveform Shape: {waveform.shape}")
+```
