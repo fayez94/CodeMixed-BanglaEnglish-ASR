@@ -19,8 +19,9 @@ pip install datasets evaluate transformers[sentencepiece] librosa jiwer bangla-p
 ```
 
 ## 🛠️ How to Use This Repository
-** Clone this repository **
+**Clone this repository**
+```bash
 git clone https://github.com/fayez94/CodeMixed-BanglaEnglish-ASR.git
 cd CodeMixed-BanglaEnglish-ASR
-
+```
 
