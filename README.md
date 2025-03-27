@@ -70,7 +70,7 @@ python train.py --dataset path/to/dataset --epochs 5
 ```
 
 ## 🗂 Repository Structure
-
+```
 CodeMixed-BanglaEnglish-ASR/
 │── runs/                       # Training logs
 │── model.safetensors           # Pre-trained model weights
@@ -83,7 +83,7 @@ CodeMixed-BanglaEnglish-ASR/
 │── notebook.md                 # notebook for training and inference
 │── data.md                     # text and audio data for both train and test
 │── README.md                   # Documentation
-
+```
 
 
 
