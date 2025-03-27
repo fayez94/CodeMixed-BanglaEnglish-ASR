@@ -23,11 +23,10 @@ pip install datasets evaluate transformers[sentencepiece] librosa jiwer bangla-p
 This ASR model is trained on a custom code-mixed Bangla-English speech dataset. It contains labeled audio-text pairs collected from various sources, ensuring diverse linguistic coverage.
 
 📌 **Dataset Highlights:**
-✅ Includes both Bangla and English speech segments
-✅ Preprocessed to match ASR model requirements
-✅ Available in train/ and test/ splits
+✅ Includes both Bangla and English speech segments  
+✅ Preprocessed to match ASR model requirements  
+✅ Available in train/ and test/ splits  
 
----
 
 🔍 For more details on dataset format, structure, and preprocessing steps, check the **data.md** file.
 
