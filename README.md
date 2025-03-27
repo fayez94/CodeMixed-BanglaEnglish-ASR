@@ -15,5 +15,12 @@ This repository contains an **ASR model** designed for recognizing Bangla and En
 Ensure you have Python **3.8+** installed. Run the following to install dependencies:
 
 ```sh
-pip install torch torchaudio transformers datasets soundfile librosa
+pip install datasets evaluate transformers[sentencepiece] librosa jiwer bangla-python collection openpyxl
+```
+
+## 🛠️ How to Use This Repository
+** Clone this repository **
+git clone https://github.com/fayez94/CodeMixed-BanglaEnglish-ASR.git
+cd CodeMixed-BanglaEnglish-ASR
+
 
