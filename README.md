@@ -18,11 +18,11 @@ Ensure you have Python **3.8+** installed. Run the following to install dependen
 pip install datasets evaluate transformers[sentencepiece] librosa jiwer bangla-python collection openpyxl
 ```
 
-## 📂 Dataset Details
+## 📂 **Dataset Details**
 
 This ASR model is trained on a custom code-mixed Bangla-English speech dataset. It contains labeled audio-text pairs collected from various sources, ensuring diverse linguistic coverage.
 
-📌 **Dataset Highlights:**  
+📌 Dataset Highlights:  
 ✅ Includes both Bangla and English speech segments  
 ✅ Preprocessed to match ASR model requirements  
 ✅ Available in train/ and test/ splits  
@@ -30,15 +30,15 @@ This ASR model is trained on a custom code-mixed Bangla-English speech dataset. 
 
 🔍 For more details on dataset format, structure, and preprocessing steps, check the **Data** folder.
 
-## 🛠️ How to Use This Repository
-**Clone this repository:**
+## 🛠️ **How to Use This Repository**
+Clone this repository:
 ```bash
 git clone https://github.com/fayez94/CodeMixed-BanglaEnglish-ASR.git
 cd CodeMixed-BanglaEnglish-ASR
 ```
 
-## 📥 Loading the Model
-**Load the model and tokenizer from the repository:**
+## 📥 **Loading the Model**
+Load the model and tokenizer from the repository:
 ```bash
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 import torchaudio
@@ -51,8 +51,8 @@ model = Wav2Vec2ForCTC.from_pretrained(model_path)
 print("Model and processor loaded successfully!")
 ```
 
-## 🎤 Running Inference
-**Use the model to transcribe an audio file:**
+## 🎤 **Running Inference**
+Use the model to transcribe an audio file:
 ```bash
 import torch
 import librosa
@@ -75,13 +75,13 @@ transcription = processor.batch_decode(predicted_ids)[0]
 print("Transcription:", transcription)
 ```
 
-## 🏋️ Training (Optional)
-**If you want to fine-tune the model with new data, prepare a dataset and follow the steps:**
+## 🏋️ **Training (Optional)**
+If you want to fine-tune the model with new data, prepare a dataset and follow the steps:
 ```bash
 python train.py --dataset path/to/dataset --epochs 5   #replace path/to/dataset with your actual dataset path
 ```
 
-## 🗂 Repository Structure
+## 🗂 **Repository Structure**
 ```
 CodeMixed-BanglaEnglish-ASR/
 │── runs/                       # Training logs
@@ -97,6 +97,14 @@ CodeMixed-BanglaEnglish-ASR/
 │── README.md                   # Documentation
 ```
 
+## 📊 **Inference Results**
+You can visualize the corresponding ASR transcription using the following link:
+
+🔗 [Inference Results](https://drive.google.com/drive/folders/1ISukmmTZj2ui-5CKjIQP6s5Q4pw9u8YT?usp=share_link)
+
+📌 What’s Inside?
+✅ Transcribed text outputs  
+✅ Sample predictions of the model  
 
 
 
