@@ -33,3 +33,23 @@ The dataset consists of **text transcripts** and **voice recordings**, available
 Each transcript aligns with a corresponding **audio file**, ensuring accurate supervised learning.
 
 ---
+
+## 📊 **Dataset Usage**
+### 🔹 **Loading Text Data in Python**
+```python
+import pandas as pd
+
+# Load training text data
+train_text_url = "https://docs.google.com/spreadsheets/d/1EkNql3Vf_AJsjlJe8iX2ZZiUZSx-qWYh/export?format=csv"
+train_text = pd.read_csv(train_text_url)
+print(train_text.head())
+
+### 🔹 **Loading Audio Files in Python**
+import torchaudio
+
+# Load an example audio file
+audio_path = "path/to/audio.wav"  # Replace with actual path
+waveform, sample_rate = torchaudio.load(audio_path)
+
+print(f"Sample Rate: {sample_rate}")
+print(f"Waveform Shape: {waveform.shape}")
