@@ -99,10 +99,9 @@ CodeMixed-BanglaEnglish-ASR/
 
 ## 📊 **Inference Results**
 You can visualize the corresponding ASR transcription using the following link:
-
 🔗 [Inference Results](https://drive.google.com/drive/folders/1ISukmmTZj2ui-5CKjIQP6s5Q4pw9u8YT?usp=share_link)
 
-📌 What’s Inside?
+📌 What’s Inside?  
 ✅ Transcribed text outputs  
 ✅ Sample predictions of the model  
 
