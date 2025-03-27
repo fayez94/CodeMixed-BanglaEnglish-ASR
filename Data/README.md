@@ -1,0 +1,32 @@
+# 📂 CodeMixed-BanglaEnglish-ASR Dataset
+🚀 **Dataset for Bangla-English Code-Mixed Automatic Speech Recognition (ASR)**
+
+This dataset is designed for training and evaluating an **Automatic Speech Recognition (ASR)** model for **Bangla-English code-mixed speech**. It includes both **text transcripts** and **corresponding speech recordings**.
+
+---
+
+## 📌 **Dataset Overview**
+✅ Contains **Bangla-English code-mixed** speech and text  
+✅ Includes **train and test splits**  
+✅ Speech data in **WAV format**  
+✅ Text transcripts in **Google Sheets**  
+
+---
+
+## 📥 **Download Links**
+The dataset consists of **text transcripts** and **voice recordings**, available separately for training and testing:
+
+| **Dataset**    | **Text Transcripts** | **Voice Recordings** |
+|---------------|----------------------|----------------------|
+| **Train Set** | [Train Text](https://docs.google.com/spreadsheets/d/1EkNql3Vf_AJsjlJe8iX2ZZiUZSx-qWYh/edit?usp=share_link&ouid=103229561544715039472&rtpof=true&sd=true) | [Train Audio](https://drive.google.com/drive/folders/1KadflDjSJblbuOF7Abi7LXpkUfMEReKf?usp=share_link) |
+| **Test Set**  | [Test Text](https://docs.google.com/spreadsheets/d/1z587eTu28YZkz2ZLA1HCtNCbSrkQVLqe/edit?usp=share_link&ouid=103229561544715039472&rtpof=true&sd=true) | [Test Audio](https://drive.google.com/drive/folders/1pXAdemLu4Evy3ZjJJs8Xvz3rCBAX1zV2?usp=share_link) |
+
+---
+
+## 🛠️ **Dataset Format**
+- **Text Transcripts**: Stored in Google Sheets (CSV format available for download)
+- **Audio Files**: Stored in Google Drive as **WAV** files
+
+Each transcript aligns with a corresponding **audio file**, ensuring accurate supervised learning.
+
+---
