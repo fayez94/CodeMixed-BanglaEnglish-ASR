@@ -66,7 +66,7 @@ print("Transcription:", transcription)
 ## 🏋️ Training (Optional)
 **If you want to fine-tune the model with new data, prepare a dataset and follow the steps:**
 ```bash
-python train.py --dataset path/to/dataset --epochs 5
+python train.py --dataset path/to/dataset --epochs 5   #replace path/to/dataset with your actual dataset path
 ```
 
 ## 🗂 Repository Structure
